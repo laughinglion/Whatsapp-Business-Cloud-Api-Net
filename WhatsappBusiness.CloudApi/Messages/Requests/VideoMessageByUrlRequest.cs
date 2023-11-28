@@ -22,6 +22,9 @@ namespace WhatsappBusiness.CloudApi.Messages.Requests
 
     public class MediaVideoUrl
     {
+        [JsonProperty("id")]
+        public string Id { get; set; }
+
         [JsonProperty("link")]
         public string Link { get; set; }
 
